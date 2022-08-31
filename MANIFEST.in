@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include hwc_app *.css
+recursive-include hwc_app *.csv
+recursive-include hwc_app *.html
+recursive-include hwc_app *.ico
+recursive-include hwc_app *.js
+recursive-include hwc_app *.json
+recursive-include hwc_app *.md
+recursive-include hwc_app *.png
+recursive-include hwc_app *.py
+recursive-include hwc_app *.svg
+recursive-include hwc_app *.txt
+recursive-exclude hwc_app *.pyc
